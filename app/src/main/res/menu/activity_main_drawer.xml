@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/ic_home_black_24dp"
+                android:title="@string/menu_home"/>
+        <item
+                android:id="@+id/nav_gallery"
+                android:icon="@drawable/ic_email_black_24dp"
+                android:title="@string/menu_gallery"/>
+        <item
+                android:id="@+id/nav_slideshow"
+                android:icon="@drawable/ic_email_black_24dp"
+                android:title="@string/menu_slideshow"/>
+        <item
+                android:id="@+id/nav_tools"
+                android:icon="@drawable/ic_trending_flat_black_24dp"
+                android:title="@string/menu_tools"/>
+    </group>
+
+    <item android:title="Watch Music and Video">
+        <menu>
+            <item
+                    android:id="@+id/nav_music"
+                    android:icon="@drawable/ic_library_music_black_24dp"
+                    android:title="@string/menu_music"/>
+            <item
+                    android:id="@+id/nav_mp3"
+                    android:icon="@drawable/ic_video_library_black_24dp"
+                    android:title="@string/menu_video"/>
+        </menu>
+    </item>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="@string/menu_share"/>
+            <item
+                    android:id="@+id/nav_send"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="@string/menu_send"/>
+        </menu>
+    </item>
+
+</menu>

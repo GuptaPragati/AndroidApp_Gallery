@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/mobile_navigation"
+            app:startDestination="@+id/nav_home">
+
+    <fragment
+            android:id="@+id/nav_home"
+            android:name="com.example.navigationmailactivity.ui.home.HomeFragment"
+            android:label="@string/menu_home"
+            tools:layout="@layout/fragment_home"/>
+
+    <fragment
+            android:id="@+id/nav_gallery"
+            android:name="com.example.navigationmailactivity.ui.Inbox.Inbox"
+            android:label="@string/menu_gallery"
+            tools:layout="@layout/inbox_fragment"/>
+
+    <fragment
+            android:id="@+id/nav_slideshow"
+            android:name="com.example.navigationmailactivity.ui.sendMail.SendMail"
+            android:label="@string/menu_slideshow"
+            tools:layout="@layout/send_mail_fragment"/>
+
+    <fragment
+            android:id="@+id/nav_tools"
+            android:name="com.example.navigationmailactivity.ui.outbox.Outbox"
+            android:label="@string/menu_tools"
+            tools:layout="@layout/outbox_fragment"/>
+
+    <fragment
+            android:id="@+id/nav_share"
+            android:name="com.example.navigationmailactivity.ui.share.ShareFragment"
+            android:label="@string/menu_share"
+            tools:layout="@layout/fragment_share"/>
+
+    <fragment
+            android:id="@+id/nav_send"
+            android:name="com.example.navigationmailactivity.ui.send.SendFragment"
+            android:label="@string/menu_send"
+            tools:layout="@layout/fragment_send"/>
+    <fragment
+            android:id="@+id/nav_music"
+            android:name="com.example.navigationmailactivity.ui.music.Music"
+            android:label="@string/menu_music"
+            tools:layout="@layout/music_fragment"/>
+    <fragment
+            android:id="@+id/nav_mp3"
+            android:name="com.example.navigationmailactivity.ui.Videoes.Videoes"
+            android:label="@string/menu_video"
+            tools:layout="@layout/videoes_fragment"/>
+</navigation>

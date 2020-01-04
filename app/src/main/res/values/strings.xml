@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">NavigationMailActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Pragati Studio</string>
+    <string name="nav_header_subtitle">pg4919@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_settings1">Archive</string>
+    <string name="action_settings2">Exit</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Inbox</string>
+    <string name="menu_slideshow">Send Mail</string>
+    <string name="menu_tools">Outbox</string>
+    <string name="menu_music">Music</string>
+    <string name="menu_video">Video</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+</resources>
